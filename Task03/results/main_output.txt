@@ -1,0 +1,8 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/DSA01-192421233-Assignment5/Task03/main.cpp -o /mnt/data/DSA01-192421233-Assignment5/Task03/main.exe
+Status: EXIT CODE 0
+
+SelfPay covered: 0
+Insurance covered: 4000
+Government covered: 3000
+Corporate covered: 3500

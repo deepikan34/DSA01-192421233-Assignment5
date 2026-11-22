@@ -1,0 +1,5 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/DSA01-192421233-Assignment5/Task02/main.cpp -o /mnt/data/DSA01-192421233-Assignment5/Task02/main.exe
+Status: EXIT CODE 0
+
+500 ~OPBill ~Bill 

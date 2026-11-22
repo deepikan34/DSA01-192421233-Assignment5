@@ -1,0 +1,4 @@
+OP total=1700 corporate=1190 selfpay-covered=0
+TELEHEALTH total=1000 corporate=700 selfpay-covered=0
+
+Exit code: 0

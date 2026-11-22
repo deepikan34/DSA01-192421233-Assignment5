@@ -1,0 +1,9 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/DSA01-192421233-Assignment5/Task01/main.cpp -o /mnt/data/DSA01-192421233-Assignment5/Task01/main.exe
+Status: EXIT CODE 0
+
+OP Ravi: 1700
+IP Meena: 49000
+DAYCARE Asha: 18000
+ER Kumar: 5000
+Day total: 73700

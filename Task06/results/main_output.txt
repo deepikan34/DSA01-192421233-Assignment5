@@ -1,0 +1,7 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/DSA01-192421233-Assignment5/Task06/main.cpp -o /mnt/data/DSA01-192421233-Assignment5/Task06/main.exe
+Status: EXIT CODE 0
+
+OP Ravi: 1700
+IP Meena: 47500
+Total 49200

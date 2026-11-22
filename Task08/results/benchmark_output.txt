@@ -1,0 +1,9 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/DSA01-192421233-Assignment5/Task08/benchmark.cpp -o /mnt/data/DSA01-192421233-Assignment5/Task08/benchmark.exe
+Status: EXIT CODE 0
+
+Bills: 1000000
+Virtual-like typed containers us: 8195
+Tagged switch us: 7325
+std::variant visit us: 49076
+All totals are accumulated; sink=7.38e+10

@@ -1,0 +1,7 @@
+Compiler: g++ (Debian 14.2.0-19) 14.2.0
+Command: g++ -std=c++17 -Wall -Wextra /mnt/data/DSA01-192421233-Assignment5/Task08/exception_benchmark.cpp -o /mnt/data/DSA01-192421233-Assignment5/Task08/exception_benchmark.exe
+Status: EXIT CODE 0
+
+0% invalid: return-code us=6785, exception us=7619
+1% invalid: return-code us=7010, exception us=13878
+50% invalid: return-code us=6837, exception us=288196

@@ -1,0 +1,4 @@
+bill_count,virtual_us,switch_us,variant_us,notes
+1000,,,,Run locally with -O2
+1000000,,,,Run locally with -O2
+10000000,,,,Run locally with -O2

@@ -1,0 +1,7 @@
+# B4 final engineering decision
+
+The extension adds `TelehealthBill` and `CorporatePayer` without changing existing concrete bill/payer classes; both satisfy existing abstract interfaces. For a group of 15 hospitals processing 200,000 bills/day, the polymorphic design is a suitable starting point when bill and payer types are added regularly: it keeps processing independent of concrete types, and RAII plus exception boundaries protect resources. Use exceptions for exceptional infrastructure/programming failures; use ordinary validation results for expected claim rejections if benchmarks show exception overhead matters.
+
+Before production, require measured load tests, persistent/auditable claim records, concurrency controls, secure patient-data handling, monitoring, and a tested sanitizer/CI pipeline. The benchmark results must be filled from the deployment-like environment; this package does not invent performance numbers.
+
+Plugin/configuration alternative: load rates and rules from validated configuration, then interpret a rule per bill. Rule evaluation is generally O(r) in the number of rules unless indexed; a virtual calculation is O(1) dispatch plus the calculation. Configuration makes rate changes easier but requires schema validation, versioning, audit trails and safe rule limits. New structural behaviour is usually safer as tested code; frequently changing rates fit configuration.
